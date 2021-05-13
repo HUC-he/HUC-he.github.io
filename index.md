@@ -1,6 +1,6 @@
 ## 欢迎来到墨竹萧的博客
 
-You can miss me on [HUC](www.cnhonkerarmy.com). And my name's 死鱼鬼宇666.
+You can miss me on HUC. And my name's 死鱼鬼宇666.//HUC is "中国红客联盟" and it's url is www.cnhonkerarmy.com .
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
