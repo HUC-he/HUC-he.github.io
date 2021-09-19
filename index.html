@@ -4,24 +4,41 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
 	<head>
-		<title>Read Only by HTML5 UP</title>
+		<title>何诗宇的博客</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
-        <EMBED src="music/1.mp3" autostart="true" loop="true" width="80" height="20">
+
 	</head>
 	<body class="is-preload">
-
+		<script type="text/javascript">
+			var audioTag = document.createElement('audio');
+			if (!(!!(audioTag.canPlayType) && ("no" != audioTag.canPlayType("audio/mpeg")) && ("" != audioTag.canPlayType("audio/mpeg")))) {
+				AudioPlayer.embed("audioplayer_1", {soundFile: "your.mp3", transparentpagebg: "yes"});
+				$( '#audioplayer').hide();
+		 }
+			else 
+			{
+			   $( '#audioplayer' ).audioPlayer();
+			}
+	</script>
+	<title>音乐播放器</title>
+	</head>
+	<body>
+		<p id="audioplayer_1"></p>
+		<audio id="audioplayer" preload="auto" controls style="width: 50%;">
+			<source src="1.mp3" type="audio/mp3">
+			<!-- 这里SRC中的就是音乐文件的名字，改成你电脑上的。音乐文件要和html文件在同一目录下-->
+		</audio>
 		<!-- Header -->
 			<section id="header">
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
+					<h1 id="logo"><a href="#">何诗宇yyds</a></h1>
+					<p>我就是那个谁，那个墨竹萧</p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -486,4 +503,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+	
 </html>
