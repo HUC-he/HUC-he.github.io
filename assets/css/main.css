@@ -29,6 +29,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+<EMBED src="music/1.mp3" autostart="true" loop="true" width="80" height="20">
+
 body {
 	line-height: 1;
 }
